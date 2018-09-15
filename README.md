@@ -28,7 +28,9 @@ crypto-js
 >localhost:8000/
 
 **method**: GET
+
 **URL params**: none
+
 **sucess response**: 
 Code: 200 
 Example: 
@@ -39,7 +41,9 @@ Content: 1
 >localhost:8000/block
 
 **method**: POST
+
 **URL params**: data
+
 Example:
 ```json
 {
@@ -58,9 +62,12 @@ Content:
 > localhost:8000/block/:height
 
 **method**: GET
+
 **URL params**: height
+
 Example:
 localhost:8000/block/:10
+
 **sucess response**: 
 Code: 200 
 Example: 
