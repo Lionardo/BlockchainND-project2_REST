@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1 Enter data
+  p form cannot be empty
+  form(action='/block' method="post")
+    textarea(name='message', rows='10', cols='30') text here
+    br
+    input(type='submit')
+
